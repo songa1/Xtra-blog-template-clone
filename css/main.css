@@ -37,6 +37,25 @@ a:hover {
     justify-content: flex-start;
     position: fixed;
     color: white;
+    overflow: scroll;
+}
+
+.social-sites {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+.social-sites i {
+    width: 20px;
+    font-size: 35px;
+    cursor: pointer;
+    margin: 10px 20px;
+}
+
+.about {
+    text-align: justify; 
+    padding: 20px;
 }
 
 .logo-space {
